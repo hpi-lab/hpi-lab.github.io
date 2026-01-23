@@ -22,14 +22,20 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
+<!-- ### **H**uman-centered **P**hysical **I**ntelligence (**HPI**) Laboratory -->
 
-### Welcome to the **H**uman-centered **P**hysical **I**ntelligence (**HPI**) Lab!
-
-The HPI Lab is part of the Department of Artificial Intelligence at Hanyang University ERICA.
-
-Our mission is to develop **human-centered physical AI agents** that can perceive, act, and interact in the real world, enabling intelligent systems to provide meaningful and trustworthy services to humans and society.
-
-Our research advances **3D environment perception**, **robotic action learning**, and **human–AI–robot interaction**, with the goal of building AI systems that are adaptive, robust, and socially acceptable in real-world environments.
+The [HPI Lab](TBU) is part of the [Department of Artificial Intelligence](http://aix.hanyang.ac.kr/) at [Hanyang University ERICA](https://www.hanyang.ac.kr/).
+\
+**Our mission** is to develop human-centered physical AI agents that can perceive, act, and interact in the real world, enabling intelligent systems to provide safe and beneficial services to humans and society.
+To achieve this, **our research** advances 3D environment perception, robotic action learning, and human–AI–robot interaction, with the goal of building physical AI agents that are adaptive, robust, and socially acceptable in real-world environments such as driving scenarios, manufacturing, logistics, healthcare, and households.
+<p style="margin-bottom: 0;margin-top: -1.0em;"><strong>Our research topics</strong> are (not limited to):</p>
+<ul style="margin-top: 0;">
+  <li>3D Environment Perception and Understanding</li>
+  <li>Cross-modal Representation Learning and Knowledge Transfer</li>
+  <li>Vision–Language–Action Learning for Robotic Navigation and Manipulation</li>  
+  <li>Model-based Reinforcement Learning and World Models</li>  
+  <li>Human–Robot Interaction</li>
+</ul>
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
