@@ -15,7 +15,7 @@ profile:
     # # <p>Your City, State 12345</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -23,7 +23,14 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 
-Welcome to **H**uman-centered **P**hysical **I**ntelligence (HPI) Lab.
+### Welcome to the **H**uman-centered **P**hysical **I**ntelligence (**HPI**) Lab!
+
+The HPI Lab is part of the Department of Artificial Intelligence at Hanyang University ERICA.
+
+Our mission is to develop **human-centered physical AI agents** that can perceive, act, and interact in the real world, enabling intelligent systems to provide meaningful and trustworthy services to humans and society.
+
+Our research advances **3D environment perception**, **robotic action learning**, and **human–AI–robot interaction**, with the goal of building AI systems that are adaptive, robust, and socially acceptable in real-world environments.
+
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
