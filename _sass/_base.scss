@@ -740,8 +740,9 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
+    color: var(--global-theme-color);
     border-top: 1px solid var(--global-divider-color);
+    font-size: 1.5rem;
     padding-top: 1rem;
     margin-top: 2rem;
     text-align: right;
@@ -894,6 +895,18 @@ footer.sticky-bottom {
     div.award.hidden.open {
       border-color: var(--global-highlight-color);
     }
+  }
+}
+
+// Hide preview column and expand entry to full width for patents
+.no-preview-bib {
+  .col.abbr {
+    display: none;
+  }
+  
+  .row > div[id] {
+    max-width: 100%;
+    flex: 0 0 100%;
   }
 }
 
