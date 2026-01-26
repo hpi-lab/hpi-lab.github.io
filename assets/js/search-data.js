@@ -4,20 +4,20 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
+  },{id: "nav-team",
+          title: "Team",
+          description: "&#39;&#39;Alone we can do so little; together we can do so much.&#39;&#39; - Helen Keller",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
           },
         },{id: "nav-publications",
-          title: "publications",
+          title: "Publications",
           description: "(∗: Eequal contributions, †: Corresponding authors)",
           section: "Navigation",
           handler: () => {
@@ -28,16 +28,23 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-a-paper-about-cross-modal-and-domain-adversarial-adaptation-is-accepted-to-aaai-2024",
+          title: 'A paper about “Cross-Modal and Domain Adversarial Adaptation” is accepted to AAAI 2024....',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-two-papers-about-unified-domain-generalization-amp-amp-adaptation-and-online-hd-map-construction-are-accepted-to-neurips-2024",
+          title: 'Two papers about “Unified Domain Generalization &amp;amp;amp; Adaptation” and “Online HD-Map Construction” are...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2.html";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-a-paper-about-efficient-3d-occupancy-prediction-is-accepted-to-cvpr-2025",
+          title: 'A paper about “Efficient 3D Occupancy Prediction” is accepted to CVPR 2025.',
+          description: "",
+          section: "News",},{id: "news-a-paper-about-test-time-adaptation-for-online-vision-language-navigation-is-accepted-to-icml-2025",
+          title: 'A paper about “Test-Time Adaptation for Online Vision-Language Navigation” is accepted to ICML...',
+          description: "",
+          section: "News",},{id: "news-a-paper-about-active-test-time-vision-language-navigation-is-accepted-to-neurips-2025",
+          title: 'A paper about “Active Test-time Vision-Language Navigation” is accepted to NeurIPS 2025.',
+          description: "",
+          section: "News",},{id: "news-human-centered-physical-intelligence-hpi-lab-is-officially-opened-at-the-department-of-artificial-intelligence-hanyang-university-erica",
+          title: 'Human-centered Physical Intelligence (HPI) Lab is officially opened at the Department of Artificial...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
