@@ -32,5 +32,38 @@ layout: page
         </div>
       {% endfor %}
     {% endif %}
+
+    {% if page.sections %}
+      <hr>
+      {% for section in page.sections %}
+        <h2 class="people-section-title">{{ section.title }}</h2>
+        <div class="people-grid {% if section.title == 'Professor' %}professor-section{% endif %}" style="--img-size: {{ page.image_size | default: 150 }}px; --img-size-mobile: {{ page.image_size_mobile | default: 200 }}px; --profile-card-min-width: {{ page.profile_card_min_width | default: 220 }}px;">
+          {% for person in section.people %}
+            <div class="people-card {% if section.title == 'Professor' %}professor-card{% endif %}">
+              {% if person.image %}
+                {% assign person_image_path = person.image | prepend: 'assets/img/' %}
+                {% if person.url %}<a href="{{ person.url }}" target="_blank" rel="noopener">{% endif %}
+                <img src="{{ person_image_path | relative_url }}" alt="{{ person.name | default: 'profile photo' }}" class="img-fluid rounded">
+                {% if person.url %}</a>{% endif %}
+              {% endif %}
+              <div class="person-info">
+                {% if person.name %}
+                  <div class="name">{{ person.name }}</div>
+                {% endif %}
+                {% if person.role %}
+                  <div class="role">{{ person.role }}</div>
+                {% endif %}
+                {% if person.content %}
+                  {% capture person_content %}{% include_relative {{ person.content }} %}{% endcapture %}
+                  <div class="bio">{{ person_content | markdownify }}</div>
+                {% elsif person.bio %}
+                  <p class="bio">{{ person.bio }}</p>
+                {% endif %}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    {% endif %}
   </article>
 </div>

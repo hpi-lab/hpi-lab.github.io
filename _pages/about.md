@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle:
 
@@ -20,7 +20,7 @@ social: false # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 8 # leave blank to include all the news in the `_news` folder
 ---
 <!-- ### **H**uman-centered **P**hysical **I**ntelligence (**HPI**) Laboratory -->
 
@@ -32,6 +32,6 @@ To achieve this, **our research** advances 3D environment perception, robotic ac
 <ul style="margin-top: 0;">
   <li>3D Visual Perception and Understanding</li>
   <li>Cross-modal Representation Learning & Knowledge Transfer</li>
-  <li>Multi-modal Robotic Action Learning</li>  
+  <li>Multi-modal Action Learning</li>  
   <li>Human–AI-Robot Interaction</li>
 </ul>
