@@ -30,8 +30,22 @@ The [HPI Lab](TBU) is part of the [Department of Artificial Intelligence](http:/
 To achieve this, **our research** advances 3D environment perception, robotic action learning, and human–AI–robot interaction, with the goal of building physical AI agents that are adaptive, robust, and socially acceptable in real-world environments such as autonomous driving, manufacturing, logistics, healthcare, and households.
 <p style="margin-bottom: 0;margin-top: -1.0em;"><strong>Our research topics</strong> are (not limited to):</p>
 <ul style="margin-top: 0;">
-  <li>3D Visual Perception and Understanding</li>
-  <li>Cross-modal Representation Learning & Knowledge Transfer</li>
-  <li>Multi-modal Action Learning</li>  
-  <li>Human–AI-Robot Interaction</li>
+  <li>3D Visual Perception and Understanding (e.g., 
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/c9850f81fb8b3a198ffb13b80da64e3f-Abstract-Conference.html">MapUnveiler</a>, 
+    <a href="https://openaccess.thecvf.com/content/CVPR2025/html/Oh_3D_Occupancy_Prediction_with_Low-Resolution_Queries_via_Prototype-aware_View_Transformation_CVPR_2025_paper.html">ProtoOcc</a>)
+  </li>
+  <li>Cross-modal Representation Learning & Knowledge Transfer (e.g., 
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/76931eaba1fcb55b70cde7d0de0161ef-Abstract-Conference.html">DaDA</a>, 
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/5d8c01de2dc698c54201c1c7d0b86974-Abstract-Conference.html">STXD</a>, 
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/6b7e1e96243c9edc378f85e7d232e415-Abstract-Conference.html">UDGA</a>)
+  </li>
+  <li>Multi-modal Robotic Action Learning (e.g.,
+    <a href="https://proceedings.mlr.press/v267/kim25ad.html">FeedTTA</a>, 
+    <a href="https://arxiv.org/abs/2506.06630">ATENA</a>)
+  </li>  
+  <li>Human-AI-Robot Interaction (e.g.,
+    <a href="https://dl.acm.org/doi/10.1145/2598153.2598171">PuppetX</a>, 
+    <a href="https://ieeexplore.ieee.org/document/7194831">MotionFlow</a>, 
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S1071581922001513">TCM</a>)
+  </li>
 </ul>
