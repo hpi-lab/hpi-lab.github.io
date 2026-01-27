@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-team",
           title: "Team",
-          description: "&#39;&#39;Alone we can do so little; together we can do so much.&#39;&#39; - Helen Keller",
+          description: "&#39;&#39;Iron sharpens iron, and one man sharpens another.&#39;&#39; - Proverbs 27:17",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
