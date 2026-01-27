@@ -244,6 +244,14 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+.post-header.no-title {
+  margin-bottom: -1rem;
+  
+  .post-description {
+    margin-bottom: -1rem;
+  }
+}
+
 // Post title
 h1.post-title {
   margin-top: -0.5em;
@@ -303,11 +311,15 @@ h1.post-title {
 
   .navbar-brand {
     color: var(--global-text-color);
+    
+    .navbar-logo {
+      height: 40px;
+    }
   }
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 
     &:hover {
       color: var(--global-hover-color);
@@ -641,6 +653,17 @@ footer.sticky-bottom {
 .people-card .name {
   font-weight: 600;
   margin-bottom: 0.25rem;
+  
+  a {
+    margin-left: 0.0rem;
+    font-size: 1.5rem;
+    color: var(--grey-color-light);
+    text-decoration: none;
+    
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
 }
 
 .people-card .role {
@@ -665,6 +688,12 @@ footer.sticky-bottom {
     padding-left: 1.25rem;
     text-align: left;
     display: table;
+    list-style: none;
+  }
+  
+  i {
+    font-size: 1rem;
+    margin-right: 0.25rem;
   }
 }
 
@@ -678,7 +707,7 @@ footer.sticky-bottom {
   flex-direction: row;
   align-items: flex-start;
   gap: 2rem;
-  max-width: 900px;
+  max-width: 700px;
   margin-bottom: 2rem;
   text-align: left;
 
@@ -710,11 +739,12 @@ footer.sticky-bottom {
   }
 
   .bio {
-    margin-top: 0.5rem;
+    margin-top: 0.0rem;
 
     ul {
       text-align: left;
       display: block;
+      padding-left: 0;
     }
   }
 }
@@ -722,11 +752,25 @@ footer.sticky-bottom {
 @media (max-width: 768px) {
   .people-card.professor-card {
     flex-direction: column;
+    text-align: center;
     
     img {
       width: 100%;
       max-width: var(--img-size-mobile, 200px);
-      margin: 0 auto 1rem;
+      margin: 0 auto -1.0rem;
+    }
+    
+    .person-info {
+      text-align: center;
+    }
+    
+    .bio {
+      text-align: center;
+      
+      ul {
+        display: inline-block;
+        text-align: left;
+      }
     }
   }
 }

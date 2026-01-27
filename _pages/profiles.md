@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /people/
 title: Team
-description: "<em>''Alone we can do so little; together we can do so much.''</em> - Helen Keller"
+description: "<em>''Iron sharpens iron, and one man sharpens another.''</em> - Proverbs 27:17"
 nav: true
 nav_order: 2
 
@@ -36,7 +36,8 @@ sections:
     people:
       - name: Sujin Jang
         image: profiles/sujin_jang.jpg
-        url: https://sujinj.com/
+        # url: https://sujinj.com/
+        # google_scholar: https://scholar.google.com/citations?hl=en&user=JiKV0wUAAAAJ&view_op=list_works&sortby=pubdate
         content: profiles/about_sujin_jang.md
 
   - title: Graduate Students

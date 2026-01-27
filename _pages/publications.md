@@ -5,6 +5,7 @@ title: Publications
 description: "(∗: Eequal contributions, †: Corresponding authors)"
 nav: true
 nav_order: 3
+display_title: true
 publication_preview_col_sm: 3
 publication_entry_col_sm: 9
 publication_preview_size_px: 500

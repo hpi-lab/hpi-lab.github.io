@@ -48,7 +48,19 @@ layout: page
               {% endif %}
               <div class="person-info">
                 {% if person.name %}
-                  <div class="name">{{ person.name }}</div>
+                  <div class="name">
+                    {{ person.name }}
+                    {% if person.url %}
+                      <a href="{{ person.url }}" target="_blank" rel="noopener" title="Personal Website">
+                        <i class="ti ti-home"></i>
+                      </a>
+                    {% endif %}
+                    {% if person.google_scholar %}
+                      <a href="{{ person.google_scholar }}" target="_blank" rel="noopener" title="Google Scholar">
+                        <i class="ti ti-school"></i>
+                      </a>
+                    {% endif %}
+                  </div>
                 {% endif %}
                 {% if person.role %}
                   <div class="role">{{ person.role }}</div>
