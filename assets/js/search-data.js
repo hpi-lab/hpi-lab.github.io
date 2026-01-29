@@ -28,7 +28,13 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-a-paper-about-cross-modal-and-domain-adversarial-adaptation-is-accepted-to-aaai-2024",
+            },},{id: "news-a-paper-about-modeling-cumulative-arm-fatigue-in-mid-air-interaction-is-accepted-to-international-journal-of-human-computer-studies",
+          title: 'A paper about “Modeling Cumulative Arm Fatigue in Mid-Air Interaction” is accepted to...',
+          description: "",
+          section: "News",},{id: "news-a-paper-about-structural-and-temporal-cross-modal-distillation-is-accepted-to-neurips-2023",
+          title: 'A paper about “Structural and Temporal Cross-Modal Distillation” is accepted to NeurIPS 2023....',
+          description: "",
+          section: "News",},{id: "news-a-paper-about-cross-modal-and-domain-adversarial-adaptation-is-accepted-to-aaai-2024",
           title: 'A paper about “Cross-Modal and Domain Adversarial Adaptation” is accepted to AAAI 2024....',
           description: "",
           section: "News",},{id: "news-two-papers-about-unified-domain-generalization-amp-amp-adaptation-and-online-hd-map-construction-are-accepted-to-neurips-2024",
