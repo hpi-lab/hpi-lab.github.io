@@ -1,2 +1,2 @@
-Undergraduate Researcher
-- Research Areas: TBU
+Undergraduate Research Intern
+- <i class="ti ti-pencil"></i> Research Areas: TBU

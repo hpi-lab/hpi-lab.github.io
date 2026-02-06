@@ -28,7 +28,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-a-paper-about-modeling-cumulative-arm-fatigue-in-mid-air-interaction-is-accepted-to-international-journal-of-human-computer-studies",
+            },},{id: "news-a-paper-about-modeling-cumulative-arm-fatigue-in-mid-air-interaction-is-accepted-to-international-journal-of-human-computer-studies-ijhcs",
           title: 'A paper about “Modeling Cumulative Arm Fatigue in Mid-Air Interaction” is accepted to...',
           description: "",
           section: "News",},{id: "news-a-paper-about-structural-and-temporal-cross-modal-distillation-is-accepted-to-neurips-2023",
@@ -48,6 +48,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-a-paper-about-active-test-time-vision-language-navigation-is-accepted-to-neurips-2025",
           title: 'A paper about “Active Test-time Vision-Language Navigation” is accepted to NeurIPS 2025.',
+          description: "",
+          section: "News",},{id: "news-a-paper-about-a-dynamic-action-model-based-vision-language-action-framework-for-robot-manipulation-is-accepted-to-icra-2026",
+          title: 'A paper about “A Dynamic Action Model-Based Vision-Language-Action Framework for Robot Manipulation” is...',
           description: "",
           section: "News",},{id: "news-human-centered-physical-intelligence-hpi-lab-is-officially-opened-at-the-department-of-artificial-intelligence-hanyang-university-erica",
           title: 'Human-centered Physical Intelligence (HPI) Lab is officially opened at the Department of Artificial...',
@@ -107,30 +110,4 @@ ninja.data = [{
           description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/introduction-to-machine-learning.html";
-            },},{
-      id: 'light-theme',
-      title: 'Change theme to light',
-      description: 'Change the theme of the site to Light',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("light");
-      },
-    },
-    {
-      id: 'dark-theme',
-      title: 'Change theme to dark',
-      description: 'Change the theme of the site to Dark',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("dark");
-      },
-    },
-    {
-      id: 'system-theme',
-      title: 'Use system default theme',
-      description: 'Change the theme of the site to System Default',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("system");
-      },
-    },];
+            },},];
