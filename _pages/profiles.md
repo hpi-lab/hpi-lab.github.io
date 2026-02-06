@@ -7,8 +7,8 @@ nav: true
 nav_order: 2
 
 # Control image sizes (in pixels)
-image_size: 150  # Image width for desktop (professor fixed, student max-width)
-image_size_mobile: 150  # Image max-width for mobile
+image_size: 170  # Image width for desktop (professor fixed, student max-width)
+image_size_mobile: 170  # Image max-width for mobile
 profile_card_min_width: 200  # Minimum card width for grid layout
 
 profiles:
@@ -42,14 +42,14 @@ sections:
 
   - title: Graduate Students
     people:
-      - name: Perspective Student
+      - name: Jane Doe
         image: profiles/blank_profile.png
         url:
         content: profiles/about_graduate_student.md
 
   - title: Undergraduate Students
     people:
-      - name: Perspective Student
+      - name: John Doe
         image: profiles/blank_profile.png
         url:
         content: profiles/about_undergraduate_student.md

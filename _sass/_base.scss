@@ -313,7 +313,8 @@ h1.post-title {
     color: var(--global-text-color);
     
     .navbar-logo {
-      height: 40px;
+      height: var(--navbar-logo-height, 40px);
+      width: auto;
     }
   }
 
@@ -753,6 +754,7 @@ footer.sticky-bottom {
   .people-card.professor-card {
     flex-direction: column;
     text-align: center;
+    align-items: center;
     
     img {
       width: 100%;
@@ -761,6 +763,16 @@ footer.sticky-bottom {
     }
     
     .person-info {
+      text-align: center;
+      align-items: center;
+      width: 100%;
+    }
+
+    .name {
+      text-align: center;
+    }
+
+    .role {
       text-align: center;
     }
     
@@ -918,6 +930,22 @@ footer.sticky-bottom {
     padding-top: 1rem;
     margin-top: 2rem;
     text-align: right;
+
+    &.collapsible-header {
+      cursor: pointer;
+      user-select: none;
+      
+      &:hover {
+        opacity: 0.8;
+      }
+
+      .toggle-arrow {
+        margin-left: 0.5rem;
+        font-size: 1rem;
+        display: inline-block;
+        transition: transform 0.3s ease;
+      }
+    }
   }
 
   ol.bibliography {

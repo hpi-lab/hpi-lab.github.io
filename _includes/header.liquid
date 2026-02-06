@@ -3,7 +3,7 @@
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
       <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-        <img src="{{ site.icon | prepend: '/assets/img/' | relative_url }}" alt="HPI Lab Logo" class="navbar-logo">
+        {% if site.navbar_logo %}<img src="{{ site.navbar_logo | prepend: '/assets/img/' | relative_url }}" alt="HPI Lab Logo" class="navbar-logo" style="--navbar-logo-height: {{ site.navbar_logo_height | default: 40 }}px;">{% endif %}
       </a>
       <!-- Navbar Toggle -->
       <button
