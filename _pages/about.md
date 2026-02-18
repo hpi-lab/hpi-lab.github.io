@@ -24,10 +24,13 @@ announcements:
 ---
 <!-- ### **H**uman-centered **P**hysical **I**ntelligence (**HPI**) Laboratory -->
 
-The [HPI Lab](TBU) is part of the [Department of Artificial Intelligence](http://aix.hanyang.ac.kr/) at [Hanyang University ERICA](https://www.hanyang.ac.kr/).
-\
-**Our mission** is to develop human-centered physical AI agents that can perceive, act, and interact in the real world, enabling intelligent systems to provide safe and beneficial services to humans and society.
-To achieve this, **our research** advances 3D environment perception, robotic action learning, and human–AI–robot interaction, with the goal of building physical AI agents that are adaptive, robust, and socially acceptable in real-world environments such as autonomous driving, manufacturing, logistics, healthcare, and households.
+<p style="text-align: justify;">
+The <a href="TBU">HPI Lab</a> is part of the <a href="http://aix.hanyang.ac.kr/">Department of Artificial Intelligence</a> at <a href="https://www.hanyang.ac.kr/">Hanyang University ERICA</a>.
+<br>
+<strong>Our mission</strong> is to develop human-centered physical AI agents that can perceive, act, and interact in the real world, enabling intelligent systems to provide safe and beneficial services to humans and society.
+<br>
+To achieve this, <strong>our research</strong> advances 3D environment perception, robotic action learning, and human–AI–robot interaction, with the goal of building physical AI agents that are adaptive, robust, and socially acceptable in real-world environments such as autonomous driving, manufacturing, logistics, healthcare, and households.
+</p>
 <p style="margin-bottom: 0;margin-top: -1.0em;"><strong>Our research topics</strong> are (not limited to):</p>
 <ul style="margin-top: 0;">
   <li>3D Visual Perception and Understanding (e.g., 

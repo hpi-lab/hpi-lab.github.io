@@ -9,15 +9,11 @@ last_name: Lab
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+address: <a href="https://www.hanyang.ac.kr/">Hanyang University ERICA</a>, Ansan, South Korea
+keywords: # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 navbar_logo: hpi_logo.png # the logo displayed in the navbar (provide image name in /assets/img/)
-
 url: https://hpi-lab.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
@@ -59,7 +55,7 @@ search_enabled: false
 socials_in_search: true
 posts_in_search: true
 bib_search: true
-navbar_logo_height: 40
+navbar_logo_height: 35
 
 # Dimensions
 max_width: 850px
@@ -137,7 +133,6 @@ include: ["_pages", "_scripts"]
 exclude:
   - _pages/projects.md
   - _pages/cv.md
-  - _pages/teaching.md
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
@@ -320,7 +315,7 @@ external_links:
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
     - 480
     - 800
