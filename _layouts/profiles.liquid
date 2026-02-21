@@ -42,8 +42,13 @@ layout: page
             <div class="people-card {% if section.title == 'Professor' %}professor-card{% endif %}">
               {% if person.image %}
                 {% assign person_image_path = person.image | prepend: 'assets/img/' %}
+                {% if person.image_circular %}
+                  {% assign person_image_class = 'img-fluid rounded-circle' %}
+                {% else %}
+                  {% assign person_image_class = 'img-fluid rounded' %}
+                {% endif %}
                 {% if person.url %}<a href="{{ person.url }}" target="_blank" rel="noopener">{% endif %}
-                <img src="{{ person_image_path | relative_url }}" alt="{{ person.name | default: 'profile photo' }}" class="img-fluid rounded">
+                <img src="{{ person_image_path | relative_url }}" alt="{{ person.name | default: 'profile photo' }}" class="{{ person_image_class }}">
                 {% if person.url %}</a>{% endif %}
               {% endif %}
               <div class="person-info">

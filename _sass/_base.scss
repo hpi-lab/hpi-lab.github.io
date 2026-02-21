@@ -651,6 +651,11 @@ footer.sticky-bottom {
   display: block;
 }
 
+.people-card img.rounded-circle {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
 .people-card .name {
   font-weight: 600;
   margin-bottom: 0.25rem;
