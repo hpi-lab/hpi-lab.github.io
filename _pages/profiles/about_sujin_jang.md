@@ -1,4 +1,5 @@
-Associate Professor @ [Department of Artificial Intelligence](http://aix.hanyang.ac.kr/) \
+Associate Professor \
+[Department of Artificial Intelligence](http://aix.hanyang.ac.kr/) \
 [College of Computing](http://computing.hanyang.ac.kr/), [Hanyang University ERICA](https://www.hanyang.ac.kr/web/eng)
 - <i class="ti ti-building"></i> Building #TBU, Room #TBU
 - <i class="ti ti-mail"></i> [sujinj@hanyang.ac.kr](mailto:sujinj@hanyang.ac.kr)
