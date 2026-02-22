@@ -25,13 +25,11 @@ sections:
     people:
       - name: Jane Doe
         image: profiles/blank_profile.png
-        url:
         content: profiles/about_graduate_student.md
 
   - title: Undergraduate Students
     people:
       - name: John Doe
         image: profiles/blank_profile.png
-        url:
         content: profiles/about_undergraduate_student.md
 ---
