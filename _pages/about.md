@@ -25,7 +25,7 @@ announcements:
 <!-- ### **H**uman-centered **P**hysical **I**ntelligence (**HPI**) Laboratory -->
 
 <p style="text-align: justify;">
-The <a href="TBU">HPI Lab</a> is part of the <a href="http://aix.hanyang.ac.kr/">Department of Artificial Intelligence</a> at <a href="https://www.hanyang.ac.kr/">Hanyang University ERICA</a>.
+The <a href="https://hpi-lab.org/">HPI Lab</a> is part of the <a href="http://aix.hanyang.ac.kr/">Department of Artificial Intelligence</a> at <a href="https://www.hanyang.ac.kr/">Hanyang University ERICA</a>.
 <br>
 <strong>Our mission</strong> is to develop human-centered physical AI agents that can perceive, act, and interact in the real world, enabling intelligent systems to provide safe and beneficial services to humans and society.
 <br>

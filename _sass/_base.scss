@@ -35,6 +35,31 @@ table {
   }
 }
 
+.news {
+  .table {
+    border-collapse: separate;
+    border-spacing: 0 0rem; // horizontal vertical gap (this controls row spacing directly)
+    margin-bottom: 0;
+  }
+
+  .table-responsive {
+    margin-bottom: 0;
+  }
+
+  .table td,
+  .table th {
+    padding: 0; // optional: removes internal cell padding so only border-spacing affects spacing
+  }
+}
+
+.post article .news ~ h2.selected-publications-heading {
+  margin-top: 1.0em;
+}
+
+.post article h2.news-heading {
+  margin-top: 1em;
+}
+
 a,
 table.table a {
   color: var(--global-theme-color);
@@ -910,7 +935,7 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 2rem;
+  margin-top: 1rem;
 
   h1 {
     color: var(--global-theme-color);
