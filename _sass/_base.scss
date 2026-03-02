@@ -44,11 +44,19 @@ table {
 
   .table-responsive {
     margin-bottom: 0;
+
+    &[style*="max-height"] {
+      padding-right: 17px; // Reserve space for scrollbar to keep padding consistent
+    }
   }
 
   .table td,
   .table th {
     padding: 0; // optional: removes internal cell padding so only border-spacing affects spacing
+  }
+
+  .table td {
+    padding-left: 1.0rem; // Reduce gap between date and content
   }
 }
 
