@@ -96,6 +96,15 @@ newsletter:
   # https://loops.so/docs/forms/custom-form
 
 # -----------------------------------------------------------------------------
+# Announcements
+# -----------------------------------------------------------------------------
+
+announcements:
+  limit: 20
+  scrollable: true
+  scroll_height: 300px # adjust the maximum height of the scrollable news container
+
+# -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
 
@@ -106,6 +115,7 @@ collections:
     defaults:
       layout: post
     output: true
+    future: true
   projects:
     output: true
   teachings:

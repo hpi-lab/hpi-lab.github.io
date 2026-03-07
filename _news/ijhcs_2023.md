@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-A paper about ["Modeling Cumulative Arm Fatigue in Mid-Air Interaction](https://www.sciencedirect.com/science/article/abs/pii/S1071581922001513)" is accepted to International Journal of Human-Computer Studies (**IJHCS**).
+A paper about ["Modeling Cumulative Arm Fatigue in Mid-Air Interaction](https://www.sciencedirect.com/science/article/pii/S1071581922001513?casa_token=SqiXZfCFK7gAAAAA:HcvBKMbr9LTXmDlbVxLTcYlzq2qXl6PcR7dRjpbhh1iBOM6JJGeGETyysUvYFjHvlMixsWoS)" is accepted to International Journal of Human-Computer Studies (**IJHCS**).
 {: style="text-align: left;"}

@@ -21,15 +21,25 @@ sections:
         # google_scholar: https://scholar.google.com/citations?hl=en&user=JiKV0wUAAAAJ&view_op=list_works&sortby=pubdate
         content: profiles/about_sujin_jang.md
 
-  - title: Graduate Students
-    people:
-      - name: Jane Doe
-        image: profiles/blank_profile.png
-        content: profiles/about_graduate_student.md
+  - title: Graduate Students (Open Positions)
+  #   people:
+  #     - name: Jane Doe
+  #       image: profiles/blank_profile.png
+  #       content: profiles/about_graduate_student.md
 
-  - title: Undergraduate Students
+  - title: Undergraduate Students (Open Positions)
+  #   people:
+  #     - name: John Doe
+  #       image: profiles/blank_profile.png
+  #       content: profiles/about_undergraduate_student.md
+
+  - title: External Advisees
     people:
-      - name: John Doe
-        image: profiles/blank_profile.png
-        content: profiles/about_undergraduate_student.md
+      - name: Jiwon Lee
+        image: profiles/jiwon_lee.jpg
+        content: profiles/about_jiwon_lee.md
+
+      - name: Jinhyuk Choi
+        image: profiles/jinhyuk_choi.jpg
+        content: profiles/about_jinhyuk_choi.md
 ---
