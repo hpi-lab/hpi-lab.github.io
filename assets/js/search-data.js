@@ -23,12 +23,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-projects",
+          title: "Projects",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-teaching",
           title: "Teaching",
           description: "&#39;&#39;Instruct the wise, and they will be even wiser. Teach the righteous, and they will learn even more.&#39;&#39; - Proverbs 9:9",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
+          },
+        },{id: "nav-openings",
+          title: "Openings",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/openings/";
           },
         },{id: "news-a-paper-about-distortion-aware-domain-adaptation-is-accepted-to-neurips-2022",
           title: 'A paper about “Distortion-aware Domain Adaptation” is accepted to NeurIPS 2022.',
