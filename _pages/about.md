@@ -42,7 +42,7 @@ To achieve this, <strong>our research</strong> advances 3D environment perceptio
     <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/6b7e1e96243c9edc378f85e7d232e415-Abstract-Conference.html">UDGA</a>)
   </li>
   <li>Multi-modal Robotic Action Learning (e.g.,
-    <a href="TBU">DAM-VLA</a>, 
+    <a href="https://arxiv.org/abs/2603.00926">DAM-VLA</a>, 
     <a href="https://proceedings.mlr.press/v267/kim25ad.html">FeedTTA</a>, 
     <a href="https://arxiv.org/abs/2506.06630">ATENA</a>)
   </li>  
@@ -52,3 +52,8 @@ To achieve this, <strong>our research</strong> advances 3D environment perceptio
     <a href="https://www.sciencedirect.com/science/article/abs/pii/S1071581922001513">TCM</a>)
   </li>
 </ul>
+
+<div style="background-color: #f0f8ff; padding: 1em; border-left: 5px solid #007acc; margin: 2em 0;">
+  <h3 style="margin-top: 0;">Open Positions</h3>
+  <p style="margin-bottom: 0;">We are looking for motivated undergraduate interns and graduate students (M.S., Ph.D., Integrated) to pioneer the next generation of Physical AI. <a href="/openings/">Apply now!</a></p>
+</div>

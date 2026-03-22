@@ -21,13 +21,13 @@ sections:
         # google_scholar: https://scholar.google.com/citations?hl=en&user=JiKV0wUAAAAJ&view_op=list_works&sortby=pubdate
         content: profiles/about_sujin_jang.md
 
-  - title: Graduate Students (Open Positions)
+  - title: Graduate Students (See Openings)
   #   people:
   #     - name: Jane Doe
   #       image: profiles/blank_profile.png
   #       content: profiles/about_graduate_student.md
 
-  - title: Undergraduate Students (Open Positions)
+  - title: Undergraduate Students (See Openings)
   #   people:
   #     - name: John Doe
   #       image: profiles/blank_profile.png
