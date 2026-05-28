@@ -6,10 +6,10 @@ description: "<em>''Iron sharpens iron, and one man sharpens another.''</em> - P
 nav: true
 nav_order: 2
 
-# Control image sizes (in pixels)
-image_size: 170  # Image width for desktop (professor fixed, student max-width)
-image_size_mobile: 170  # Image max-width for mobile
-profile_card_min_width: 200  # Minimum card width for grid layout
+# Control sizes (in pixels)
+prof_image_size: 300
+student_image_size: 150
+profile_card_min_width: 200
 
 sections:
   - title: Professor
@@ -27,11 +27,27 @@ sections:
   #       image: profiles/blank_profile.png
   #       content: profiles/about_graduate_student.md
 
-  - title: Undergraduate Students (See Openings)
-  #   people:
-  #     - name: John Doe
-  #       image: profiles/blank_profile.png
-  #       content: profiles/about_undergraduate_student.md
+  - title: Undergraduate Students
+    people:
+    - name: Minchan Kim
+      image: profiles/minchan_kim.jpg
+      content: profiles/about_minchan_kim.md
+
+    - name: Gisu Park
+      image: profiles/gisu_park.png
+      content: profiles/about_gisu_park.md
+
+    - name: Duyeon Won
+      image: profiles/duyeon_won.png
+      content: profiles/about_duyeon_won.md
+
+    - name: Su Lee
+      image: profiles/su_lee.jpg
+      content: profiles/about_su_lee.md
+
+    - name: Sangho Jung
+      image: profiles/sangho_jung.png
+      content: profiles/about_sangho_jung.md
 
   - title: External Advisees
     people:
@@ -43,3 +59,12 @@ sections:
         image: profiles/jinhyuk_choi.jpg
         content: profiles/about_jinhyuk_choi.md
 ---
+
+<style>
+  .people-grid {
+    --prof-img-size: {{ page.prof_image_size }}px;
+    --prof-img-size-mobile: {{ page.prof_image_size }}px;
+    --student-img-size: {{ page.student_image_size }}px;
+    --profile-card-min-width: {{ page.profile_card_min_width }}px;
+  }
+</style>
