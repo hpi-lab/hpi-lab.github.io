@@ -9,7 +9,7 @@ nav_order: 6
 The HPI Lab is looking for motivated **undergraduate interns** and **graduate students (M.S., Ph.D., and Integrated)** to pioneer the next generation of Physical AI.
 We bridge the gap between digital intelligence and physical reality to create technologies that assist humans in their daily lives.
 
-## Research Frontiers
+## Research Areas
 
 We focus on **Physical Intelligence** that enables AI agents to perceive, act, and interact within the real world to provide beneficial services to humans and society.
 Our core research includes:
@@ -18,13 +18,6 @@ Our core research includes:
 - **3D Environment Perception & Understanding**: Advancing how physical AI agents perceive, map, and reason about complex 3D spaces.
 - **Human-AI-Robot Interaction**: Designing seamless collaboration frameworks between humans and autonomous systems.
 
-## Our Culture: Fun & Hardworking
-
-We believe that high-impact research requires both rigor and a supportive environment.
-
-- **Hardworking**: We tackle difficult, unsolved problems and aim for top-tier venues (CVPR, NeurIPS, ICML, ICRA, etc.).
-- **Fun**: We maintain a collaborative, high-energy atmosphere where ideas are shared freely, and personal growth is prioritized alongside project success.
-- **Practical**: We prioritize "Physical AI" that actually works on hardware, utilizing our dedicated workstations and robotic platforms.
 
 ## Who We Are Looking For
 
