@@ -15,15 +15,16 @@ We focus on **Physical Intelligence** that enables AI agents to perceive, act, a
 Our core research includes:
 
 - **Multi-Modal Robot Action Learning**: Developing adaptable and generalizable action models based on multi-modal sensors for dexterous manipulation and navigation.
-- **3D Environment Perception & Understanding**: Advancing how physical AI agents perceive, map, and reason about complex 3D spaces.
+- **World Models & Model-based Planning**: Learning predictive models of how environments evolve under an agent's actions, and using them for planning and decision making.
+- **Causal & Cross-modal Representation Learning**: Learning representations that capture underlying structure rather than spurious correlations, so that models transfer reliably across modalities and domains.
+- **3D Visual Perception & Understanding**: Advancing how physical AI agents perceive, map, and reason about complex 3D spaces.
 - **Human-AI-Robot Interaction**: Designing seamless collaboration frameworks between humans and autonomous systems.
-
 
 ## Who We Are Looking For
 
-- **Graduate Students**: Individuals with a strong background in CS, Robotics, EE, or ME and a desire to publish world-class research.
+- **Graduate Students**: Individuals with a strong background in CS, AI, Robotics, EE, or ME and a desire to publish world-class research.
 - **Undergraduate Interns**: Proactive students eager to gain hands-on experience with robots and deep learning frameworks.
-- **Skills**: Proficiency in Python/C++, experience with PyTorch or ROS is a plus, and a resilient "can-do" attitude toward technical challenges.
+- **Skills**: Proficiency in Python, PyTorch, C/C++, ROS is a plus, and a resilient "can-do" attitude toward technical challenges.
 
 ## How to Apply
 
