@@ -38,8 +38,6 @@ To achieve this, <strong>our research</strong> advances multi-modal robotic acti
   <li>3D Visual Perception and Understanding</li>
   <li>Human-AI-Robot Interaction</li>
 </ul>
-<p style="margin-top: -0.5em;">See our recent works at <a href="/publications/">Publications</a> (<em>NeurIPS, ICML, CVPR, ICRA, etc.</em>).</p>
-
 <div style="background-color: #f0f8ff; padding: 1em; border-left: 5px solid #007acc; margin: 2em 0;">
   <h3 style="margin-top: 0;">Open Positions</h3>
   <p style="margin-bottom: 0;">We are looking for highly motivated <strong>Undergraduate Interns</strong> and <strong>Graduate Students (M.S., Ph.D., Integrated)</strong> to pioneer the next generation of Physical AI. <a href="/openings/">Apply now!</a></p>
