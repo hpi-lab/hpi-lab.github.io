@@ -17,7 +17,7 @@ sections:
       - name: Sujin Jang
         image: profiles/sujin_jang.png
         image_circular: false
-        # url: https://sujinj.com/
+        url: https://sujinj.com/
         # google_scholar: https://scholar.google.com/citations?hl=en&user=JiKV0wUAAAAJ&view_op=list_works&sortby=pubdate
         content: profiles/about_sujin_jang.md
 

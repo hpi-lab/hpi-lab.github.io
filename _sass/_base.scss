@@ -693,15 +693,24 @@ footer.sticky-bottom {
 .people-card .name {
   font-weight: 600;
   margin-bottom: 0.25rem;
-  
+
   a {
-    margin-left: 0.0rem;
-    font-size: 1.5rem;
-    color: var(--grey-color-light);
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    margin-left: 0.15rem;
+    line-height: 1;
+    font-size: 1.1em;
+    color: var(--global-theme-color);
     text-decoration: none;
-    
+
+    i {
+      display: block;
+      line-height: 1;
+    }
+
     &:hover {
-      color: var(--global-theme-color);
+      opacity: 0.75;
     }
   }
 }
