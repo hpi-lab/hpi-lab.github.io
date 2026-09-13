@@ -86,17 +86,17 @@ ninja.data = [{
           section: "News",},{id: "news-a-paper-about-a-dynamic-action-model-based-vision-language-action-framework-for-robot-manipulation-is-sucessfully-presented-at-icra-2026",
           title: 'A paper about “A Dynamic Action Model-Based Vision-Language-Action Framework for Robot Manipulation” is...',
           description: "",
-          section: "News",},{id: "news-hpi-lab-has-been-selected-to-participate-in-the-innovative-ai-talent-fostering-project-인공지능혁신인재양성사업-정보통신기획평가원-2026-08-2031-12",
-          title: 'HPI Lab has been selected to participate in the Innovative AI Talent Fostering...',
+          section: "News",},{id: "news-hpi-lab-has-been-selected-to-participate-in-the-ai-innovation-talent-development-program-인공지능혁신인재양성사업-msit-iitp-2026-08-2031-12",
+          title: 'HPI Lab has been selected to participate in the AI Innovation Talent Development...',
           description: "",
           section: "News",},{id: "news-prof-jang-gave-a-talk-on-multi-modal-robot-learning-at-s-lsi-samsung-electronics",
           title: 'Prof. Jang gave a talk on Multi-modal Robot Learning at S.LSI, Samsung Electronics....',
           description: "",
-          section: "News",},{id: "news-hpi-lab-has-been-awarded-a-nrf-basic-research-grant-개인기초연구-핵심연구-기본연구b-과학기술정보통신부-한국연구재단-2026-09-2027-08",
-          title: 'HPI Lab has been awarded a NRF basic research grant (개인기초연구-핵심연구(기본연구B), 과학기술정보통신부(한국연구재단), 2026.09~2027.08)....',
+          section: "News",},{id: "news-hpi-lab-has-been-awarded-an-nrf-basic-research-grant-개인기초연구-핵심연구-기본연구b-msit-nrf-2026-09-2027-08",
+          title: 'HPI Lab has been awarded an NRF basic research grant (개인기초연구-핵심연구(기본연구B), MSIT/NRF, 2026.09~2027.08)....',
           description: "",
-          section: "News",},{id: "news-hpi-lab-has-been-awarded-a-iitp-research-grant-ai최고급신진연구자지원사업-ai스타펠로우십지원-과학기술정보통신부-정보통신기획평가원-2026-07-2031-12",
-          title: 'HPI Lab has been awarded a IITP research grant (AI최고급신진연구자지원사업(AI스타펠로우십지원), 과학기술정보통신부(정보통신기획평가원), 2026.07~2031.12). 🎉...',
+          section: "News",},{id: "news-hpi-lab-has-been-awarded-an-iitp-ai-star-fellowship-grant-ai최고급신진연구자지원사업-msit-iitp-2026-07-2031-12",
+          title: 'HPI Lab has been awarded an IITP AI Star Fellowship grant (AI최고급신진연구자지원사업, MSIT/IITP,...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -108,4 +108,14 @@ ninja.data = [{
           description: "",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/deep-learning-cse4048.html";
+            },},{id: "teachings-open-source-practical-ai",
+          title: 'Open Source Practical AI',
+          description: "",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/open-source-ai-dai1001.html";
+            },},{id: "teachings-grad-physical-ai-for-autonomous-agents",
+          title: '(Grad)Physical AI for Autonomous Agents',
+          description: "",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/physical-ai-autonomous-intelligence-aic6060.html";
             },},];
