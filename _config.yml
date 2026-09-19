@@ -102,7 +102,7 @@ newsletter:
 announcements:
   limit: 20
   scrollable: true
-  scroll_height: 300px # adjust the maximum height of the scrollable news container
+  scroll_height: 200px # adjust the maximum height of the scrollable news container
 
 # -----------------------------------------------------------------------------
 # Collections

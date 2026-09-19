@@ -27,7 +27,7 @@ sections:
   #       image: profiles/blank_profile.png
   #       content: profiles/about_graduate_student.md
 
-  - title: Undergraduate Students
+  - title: Undergraduate Interns
     people:
     - name: Minchan Kim
       image: profiles/minchan_kim.jpg
@@ -48,6 +48,10 @@ sections:
     - name: Sangho Jung
       image: profiles/sangho_jung.png
       content: profiles/about_sangho_jung.md
+
+    - name: Heeyeon Cho
+      image: profiles/heeyeon_cho.png
+      content: profiles/about_heeyeon_cho.md
 
   - title: External Advisees
     people:

@@ -3,8 +3,8 @@ layout: page
 title: News
 permalink: /news/
 announcements:
-  limit: 15
-  scrollable: true
+  limit: 100
+  scrollable: false
 ---
 
 {% include news.liquid %}
