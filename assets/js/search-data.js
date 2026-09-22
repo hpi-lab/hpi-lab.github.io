@@ -104,6 +104,9 @@ ninja.data = [{
           section: "News",},{id: "news-prof-jang-will-serve-as-an-area-chair-for-the-international-conference-on-learning-representations-iclr-2027",
           title: 'Prof. Jang will serve as an Area Chair for the International Conference on...',
           description: "",
+          section: "News",},{id: "news-prof-jang-gave-a-talk-on-multi-modal-robot-learning-at-kaist-ctgs",
+          title: 'Prof. Jang gave a talk on Multi-modal Robot Learning at KAIST CTGS.',
+          description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
@@ -114,6 +117,11 @@ ninja.data = [{
           description: "",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/deep-learning-cse4048.html";
+            },},{id: "teachings-intro-to-artificial-intelligence",
+          title: 'Intro. to Artificial Intelligence',
+          description: "",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/intro-ai-ess1052.html";
             },},{id: "teachings-open-source-practical-ai",
           title: 'Open Source Practical AI',
           description: "",
