@@ -2,6 +2,7 @@
 layout: post
 date: 2023-09-22 05:00:00-0400
 inline: true
+icon: fa-solid fa-file-lines
 related_posts: false
 ---
 

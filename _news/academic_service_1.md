@@ -2,6 +2,7 @@
 layout: post
 date: 2026-09-18 13:00:00-0400
 inline: true
+icon: fa-solid fa-user-tie
 related_posts: false
 ---
 

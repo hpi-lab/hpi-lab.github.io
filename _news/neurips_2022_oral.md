@@ -2,6 +2,7 @@
 layout: post
 date: 2022-10-25 14:00:00-0400
 inline: true
+icon: fa-solid fa-trophy
 related_posts: false
 ---
 

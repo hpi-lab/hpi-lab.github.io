@@ -2,6 +2,7 @@
 layout: post
 date: 2024-09-26 03:20:00-0400
 inline: true
+icon: fa-solid fa-file-lines
 related_posts: false
 ---
 

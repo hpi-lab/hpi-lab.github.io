@@ -19,6 +19,7 @@ social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
+  limit: 10 # show only the 10 most recent news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
 ---
 

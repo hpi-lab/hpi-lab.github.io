@@ -20,11 +20,28 @@
           <tr>
             <th scope="row" style="width: 10%">{{ item.date | date: '%b %Y' }}</th>
             <td>
-              {% if item.inline %}
-                {{ item.content | emojify }}
-              {% else %}
-                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              {% if item.icon %}
+                {% case item.icon %}
+                  {% when 'fa-solid fa-coins' %}{% assign icon_color = '#e0a800' %}
+                  {% when 'fa-solid fa-trophy' %}{% assign icon_color = '#f0b400' %}
+                  {% when 'fa-solid fa-file-lines' %}{% assign icon_color = '#1e88e5' %}
+                  {% when 'fa-solid fa-users' %}{% assign icon_color = '#2e9e4f' %}
+                  {% when 'fa-solid fa-microphone' %}{% assign icon_color = '#e53935' %}
+                  {% when 'fa-solid fa-user-tie' %}{% assign icon_color = '#6d4c9f' %}
+                  {% when 'fa-solid fa-flask' %}{% assign icon_color = '#00897b' %}
+                  {% else %}{% assign icon_color = 'var(--global-theme-color)' %}
+                {% endcase %}
               {% endif %}
+              <div style="display: flex; align-items: baseline; gap: 0.4em;">
+                {% if item.icon %}<i class="{{ item.icon }} fa-fw" style="color: {{ icon_color }}; flex-shrink: 0;"></i>{% endif %}
+                <div>
+                  {% if item.inline %}
+                    {{ item.content | emojify }}
+                  {% else %}
+                    <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                  {% endif %}
+                </div>
+              </div>
             </td>
           </tr>
         {% endfor %}
