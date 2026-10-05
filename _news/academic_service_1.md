@@ -6,5 +6,5 @@ icon: fa-solid fa-user-tie
 related_posts: false
 ---
 
-Prof. Jang will serve as an Area Chair for the International Conference on Learning Representations (ICLR) 2027.
+Prof. Jang will serve as an **Area Chair** for the International Conference on Learning Representations (**ICLR**) **2027**.
 {: style="text-align: left;"}
