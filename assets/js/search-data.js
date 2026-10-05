@@ -107,7 +107,7 @@ ninja.data = [{
           section: "News",},{id: "news-prof-jang-gave-a-talk-on-multi-modal-robot-learning-at-kaist-ctgs",
           title: 'Prof. Jang gave a talk on Multi-modal Robot Learning at KAIST CTGS.',
           description: "",
-          section: "News",},{id: "news-hpi-lab-has-been-awarded-an-industry-university-r-amp-amp-d-grant-from-the-hanyang-university-campus-innovation-park-캠퍼스혁신파크사업단-산학동동-융합-r-amp-amp-d-w-주-마음ai-2026-10-2027-01",
+          section: "News",},{id: "news-hpi-lab-has-been-awarded-an-industry-university-r-amp-amp-d-grant-from-the-hanyang-university-campus-innovation-park-캠퍼스혁신파크사업단-산학공동-융합-r-amp-amp-d-w-주-마음ai-2026-10-2027-01",
           title: 'HPI Lab has been awarded an industry-university R&amp;amp;amp;D grant from the Hanyang University...',
           description: "",
           section: "News",},{id: "projects-project-1",
