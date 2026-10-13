@@ -53,6 +53,10 @@ sections:
       image: profiles/heeyeon_cho.png
       content: profiles/about_heeyeon_cho.md
 
+    - name: Jinwon Choi
+      image: profiles/jinwon_choi.jpg
+      content: profiles/about_jinwon_choi.md
+
   - title: External Advisees
     people:
       - name: Jiwon Lee
