@@ -1,4 +1,3 @@
-
 - <i class="ti ti-book"></i>PhD Student @ Seoul National University
   ([Prof. Jongwoo Lim](https://rvlab.snu.ac.kr/home)'s Group)
 - <i class="ti ti-briefcase"></i>Staff Researcher @ Samsung AI Center
