@@ -279,7 +279,7 @@ ul.task-list input[type="checkbox"] {
 
 .post-header.no-title {
   margin-bottom: -1rem;
-  
+
   .post-description {
     margin-bottom: -1rem;
   }
@@ -344,7 +344,7 @@ h1.post-title {
 
   .navbar-brand {
     color: var(--global-text-color);
-    
+
     .navbar-logo {
       height: var(--navbar-logo-height, 40px);
       width: auto;
@@ -739,7 +739,7 @@ footer.sticky-bottom {
     display: table;
     list-style: none;
   }
-  
+
   i {
     font-size: 1rem;
     margin-right: 0.25rem;
@@ -811,13 +811,13 @@ footer.sticky-bottom {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    
+
     img {
       width: 100%;
       max-width: var(--prof-img-size-mobile, var(--img-size-mobile, 200px));
       margin: 0 auto -1.0rem;
     }
-    
+
     .person-info {
       text-align: center;
       align-items: center;
@@ -831,10 +831,10 @@ footer.sticky-bottom {
     .role {
       text-align: center;
     }
-    
+
     .bio {
       text-align: center;
-      
+
       ul {
         display: inline-block;
         text-align: left;
@@ -990,7 +990,7 @@ footer.sticky-bottom {
     &.collapsible-header {
       cursor: pointer;
       user-select: none;
-      
+
       &:hover {
         opacity: 0.8;
       }
@@ -1159,7 +1159,7 @@ footer.sticky-bottom {
   .col.abbr {
     display: none;
   }
-  
+
   .row > div[id] {
     max-width: 100%;
     flex: 0 0 100%;

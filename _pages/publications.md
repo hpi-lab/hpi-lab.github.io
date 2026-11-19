@@ -21,7 +21,7 @@ publication_preview_size_px: 500
 {% bibliography --query @*[year >= 2022]* %}
 
 <h2 class="bibliography collapsible-header" onclick="togglePublications()">
-  Before 2022 
+  Before 2022
   <span class="toggle-arrow" id="toggle-arrow">[+]</span>
 </h2>
 <div id="old-publications" style="display: none;">
@@ -55,7 +55,7 @@ function togglePatents() {
 </script>
 
 <h2 class="bibliography collapsible-header" onclick="togglePatents()">
-  Patents 
+  Patents
   <span class="toggle-arrow" id="patents-arrow">[+]</span>
 </h2>
 <div id="patents-publications" class="no-preview-bib" style="display: none;">
