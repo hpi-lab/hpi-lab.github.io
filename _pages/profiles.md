@@ -29,33 +29,33 @@ sections:
 
   - title: Undergraduate Interns
     people:
-    - name: Minchan Kim
-      image: profiles/minchan_kim.jpg
-      content: profiles/about_minchan_kim.md
+      - name: Minchan Kim
+        image: profiles/minchan_kim.jpg
+        content: profiles/about_minchan_kim.md
 
-    - name: Gisu Park
-      image: profiles/gisu_park.png
-      content: profiles/about_gisu_park.md
+      - name: Gisu Park
+        image: profiles/gisu_park.png
+        content: profiles/about_gisu_park.md
 
-    - name: Duyeon Won
-      image: profiles/duyeon_won.png
-      content: profiles/about_duyeon_won.md
+      - name: Duyeon Won
+        image: profiles/duyeon_won.png
+        content: profiles/about_duyeon_won.md
 
-    - name: Su Lee
-      image: profiles/su_lee.jpg
-      content: profiles/about_su_lee.md
+      - name: Su Lee
+        image: profiles/su_lee.jpg
+        content: profiles/about_su_lee.md
 
-    - name: Sangho Jung
-      image: profiles/sangho_jung.png
-      content: profiles/about_sangho_jung.md
+      - name: Sangho Jung
+        image: profiles/sangho_jung.png
+        content: profiles/about_sangho_jung.md
 
-    - name: Heeyeon Cho
-      image: profiles/heeyeon_cho.png
-      content: profiles/about_heeyeon_cho.md
+      - name: Heeyeon Cho
+        image: profiles/heeyeon_cho.png
+        content: profiles/about_heeyeon_cho.md
 
-    - name: Jinwon Choi
-      image: profiles/jinwon_choi.jpg
-      content: profiles/about_jinwon_choi.md
+      - name: Jinwon Choi
+        image: profiles/jinwon_choi.jpg
+        content: profiles/about_jinwon_choi.md
 
   - title: External Advisees
     people:

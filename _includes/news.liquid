@@ -12,9 +12,10 @@
     <div
       class="table-responsive"
       {% if (page.announcements.scrollable or (include.limit and site.announcements.scrollable)) and news_size > news_limit %}
-      {% assign scroll_height = site.announcements.scroll_height | default: '400px' %}
-      style="max-height: {{ scroll_height }}; overflow-y: auto;"
-      {% endif %}>
+        {% assign scroll_height = site.announcements.scroll_height | default: '400px' %}
+        style="max-height: {{ scroll_height }}; overflow-y: auto;"
+      {% endif %}
+    >
       <table class="table table-sm table-borderless">
         {% for item in news limit: news_limit %}
           <tr>
@@ -22,14 +23,22 @@
             <td>
               {% if item.icon %}
                 {% case item.icon %}
-                  {% when 'fa-solid fa-coins' %}{% assign icon_color = '#e0a800' %}
-                  {% when 'fa-solid fa-trophy' %}{% assign icon_color = '#f0b400' %}
-                  {% when 'fa-solid fa-file-lines' %}{% assign icon_color = '#1e88e5' %}
-                  {% when 'fa-solid fa-users' %}{% assign icon_color = '#2e9e4f' %}
-                  {% when 'fa-solid fa-microphone' %}{% assign icon_color = '#e53935' %}
-                  {% when 'fa-solid fa-user-tie' %}{% assign icon_color = '#6d4c9f' %}
-                  {% when 'fa-solid fa-flask' %}{% assign icon_color = '#00897b' %}
-                  {% else %}{% assign icon_color = 'var(--global-theme-color)' %}
+                  {% when 'fa-solid fa-coins' -%}
+                    {%- assign icon_color = '#e0a800' %}
+                  {% when 'fa-solid fa-trophy' -%}
+                    {%- assign icon_color = '#f0b400' %}
+                  {% when 'fa-solid fa-file-lines' -%}
+                    {%- assign icon_color = '#1e88e5' %}
+                  {% when 'fa-solid fa-users' -%}
+                    {%- assign icon_color = '#2e9e4f' %}
+                  {% when 'fa-solid fa-microphone' -%}
+                    {%- assign icon_color = '#e53935' %}
+                  {% when 'fa-solid fa-user-tie' -%}
+                    {%- assign icon_color = '#6d4c9f' %}
+                  {% when 'fa-solid fa-flask' -%}
+                    {%- assign icon_color = '#00897b' %}
+                  {% else -%}
+                    {%- assign icon_color = 'var(--global-theme-color)' %}
                 {% endcase %}
               {% endif %}
               <div style="display: flex; align-items: baseline; gap: 0.4em;">

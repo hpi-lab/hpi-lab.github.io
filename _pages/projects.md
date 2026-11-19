@@ -18,6 +18,8 @@ _styles: >
   }
 ---
 
+<!-- prettier-ignore-start -->
+
 - *"산학공동 융합 R&D--Development of a Physical AI-Based Research Environment for Robot Manipulation and Action Intelligence"*, 한양대학교 ERICA 캠퍼스혁신파크사업단, 2026.10~2027.01 (Principal Investigator, 협력기업:(주)마음AI)
 
 - *"개인기초연구-핵심연구(기본연구B)--Causal World Models for Robust and Efficient Adaptation of Physical AI Agents"*, 과학기술정보통신부(한국연구재단), 2026.09~2027.08 (Principal Investigator)
@@ -32,3 +34,5 @@ _styles: >
 
 - *"Multi-modal Physical Intelligence and 3D Perception for General Robot Actions"*, Hanyang University ERICA, 2026.03~2027.02 (Principal Investigator)
 {: .project-list}
+
+<!-- prettier-ignore-end -->

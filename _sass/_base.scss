@@ -61,7 +61,7 @@ table {
 }
 
 .post article .news ~ h2.selected-publications-heading {
-  margin-top: 1.0em;
+  margin-top: 1em;
 }
 
 .post article h2.news-heading {
@@ -756,7 +756,7 @@ footer.sticky-bottom {
   flex-direction: row;
   // align-items: center;
   align-items: flex-start;
-  gap: 2.0rem;
+  gap: 2rem;
   width: auto;
   max-width: 100%;
   margin-bottom: 0rem;
@@ -796,7 +796,7 @@ footer.sticky-bottom {
   }
 
   .bio {
-    margin-top: 0.0rem;
+    margin-top: 0rem;
 
     ul {
       text-align: left;
@@ -815,7 +815,7 @@ footer.sticky-bottom {
     img {
       width: 100%;
       max-width: var(--prof-img-size-mobile, var(--img-size-mobile, 200px));
-      margin: 0 auto -1.0rem;
+      margin: 0 auto -1rem;
     }
 
     .person-info {
@@ -1803,5 +1803,5 @@ mjx-container[jax="CHTML"][display="true"] {
 }
 
 h1 {
-  font-size: 2.0rem;
+  font-size: 2rem;
 }

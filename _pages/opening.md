@@ -30,7 +30,7 @@ Our core research includes:
 
 Send me an email at [sujinj@hanyang.ac.kr](mailto:sujinj@hanyang.ac.kr) in the following format (either in English or Korean)
 
-- **Title**: [Application to "***YourRole*** (i.e., Undergraduate Interns or M.S. or Ph.D.)"] ***YourName*** - ***YourAffiliation***
+- **Title**: [Application to "_**YourRole**_ (i.e., Undergraduate Interns or M.S. or Ph.D.)"] **_YourName_** - **_YourAffiliation_**
 - **Contents**: Motivation, CV, Transcript, Project Portfolio (Anything you've worked on)
 
 ---
